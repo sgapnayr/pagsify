@@ -3,7 +3,7 @@
   --color-primary: #705da2;
   --color-secondary: #96709c;
   --color-tiertiary: #bc8396;
-  --color-accent: #da9191;
+  --color-accent: #dabd91;
   --color-headings: #1b0760;
   --color-body: #918ca4;
 }
@@ -15,8 +15,8 @@ html {
 }
 
 body {
-  font-family: Inter, Arial, Helvetica, sans-serif;
   color: var(--color-body);
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
 }
@@ -85,5 +85,39 @@ a {
 @media screen and (min-width: 1024px) {
   .link-arrow {
     font-size: 1.5rem;
+  }
+}
+
+/* Badges */
+
+.badge {
+  border-radius: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  white-space: nowrap;
+}
+
+.badge--primary {
+  background: var(--color-primary);
+  color: #ffff;
+}
+
+.badge--secondary {
+  background: var(--color-secondary);
+  color: #ffff;
+}
+
+.badge--small {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.5rem;
+  }
+
+  .badge--small {
+    font-size: 1.2rem;
   }
 }
