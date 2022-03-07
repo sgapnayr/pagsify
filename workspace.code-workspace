@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "pagsify",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pagsify"
+	}
+}
