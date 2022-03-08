@@ -73,7 +73,7 @@ p {
   }
 
   h3 {
-    font-size: 3.2 rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -718,7 +718,7 @@ a {
 
 .nav__toggler {
   opacity: 0.5;
-  transition: box-shadow 0.15s opacity 0s;
+  transition: all 0.15s;
   cursor: pointer;
   padding: 0.25rem;
 }
