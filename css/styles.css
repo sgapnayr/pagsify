@@ -1,3 +1,5 @@
+@import "./normalize.css";
+
 :root {
   --color-softwhite: #fcfcfc;
   --color-primary: #705da2;
@@ -143,6 +145,12 @@ a {
 .list {
   list-style: none;
   padding-left: 0;
+}
+
+ol {
+  display: block;
+  justify-content: start;
+  align-items: left;
 }
 
 .list--inline .list__item {
