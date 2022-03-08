@@ -623,6 +623,7 @@ ol {
   overflow: hidden;
   opacity: 0;
   transition: all 0.3s;
+  margin-bottom: 3rem;
 }
 
 .collapsible--expanded .collapsible__chevron {
