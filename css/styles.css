@@ -848,6 +848,7 @@ ol {
 .feature {
   gap: 4rem 2rem;
   margin: 0 12rem;
+  align-items: center;
 }
 
 .feature:first-of-type {
@@ -898,10 +899,11 @@ ol {
 
 .footer li {
   list-style: none;
+  display: flex;
 }
 
 .footer a {
-  color: #777;
+  color: rgb(172, 172, 172);
   transition: color 0.3s;
 }
 
